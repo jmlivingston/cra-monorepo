@@ -40,6 +40,7 @@ yarn global add create-react-app@next
 
 9.  Add a .gitignore file to the root directory and lib1 directory. The important thing is adding a /node_modules entry.
 10.  Run `yarn` to install all shared npm packages. Any shared packages will be at the root level, with the exception of exectutables in the .bin directory.
+11. Run ```lerna init``` to get Lerna set up.
 
 > Troubleshooting - Verify the respective package.json files and ensure react-scripts is 2.x. If not, you can manually copy and paste the correct version from [npm](https://www.npmjs.com/package/create-react-app) and run ```yarn``` again.
 
