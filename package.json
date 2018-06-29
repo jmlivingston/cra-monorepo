@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-app1": "cd packages/app1 && yarn start",
+    "start-comp1": "cd packages/comp1 && yarn start"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
